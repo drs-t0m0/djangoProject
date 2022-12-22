@@ -25,3 +25,27 @@ $ python manage.py runserver 0.0.0.0:8000
 ```sh
 $ python manage.py startapp polls
 ```
+
+## マイグレーション
+
+```sh
+$ python manage.py migrate
+```
+
+## マイグレーションファイル作成
+
+```sh
+$ python manage.py makemigrations polls
+```
+
+## マイグレーションのSQLを確認(実行しない)
+
+```sh
+$ python manage.py sqlmigrate polls 0001
+```
+
+## 管理ユーザーを作成
+
+```sh
+$ python manage.py createsuperuser
+```
